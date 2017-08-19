@@ -18,7 +18,7 @@ import { connect } from 'react-redux'
 // Component Definition ============================================
 // -----------------------------------------------------------------
 class BaseContainer extends Component {
-  constructor () {
+  constructor (props) {
     // --- Props:
     //        prop1 - STRING (default 'defaultValue')
     //        prop2 - STRING (default 'defaultValue')
